@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+  font-family: 'Nerko One', cursive;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background: #ffe68a;
+  color: #4f4729;
+}
+
+#form {
+  width: 65%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#post {
+  width: 65%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#post p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#post a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+#post a:hover {
+  text-decoration: underline;
+}
+
+#form input[type="submit"] {
+  font-family: 'Nerko One', cursive;
+  padding: 0px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #ffe68a;
+  border: #4f4729;
+  border-radius: 15px;
+  box-shadow: 0 8px #4f4729;
+  color: #4f4729;
+  display: inline-block;
+}
+
+#form input[type="submit"]:active {
+  background-color: #e3b236;
+}
